@@ -1,27 +1,34 @@
 {
-  "name": "tf",
+  "name": "AR-Christmas",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@mediapipe/face_mesh": "^0.4.1633559619",
     "@tensorflow-models/face-landmarks-detection": "^1.0.2",
     "@tensorflow/tfjs": "^4.1.0",
+    "core-js": "^3.8.3",
     "kalidokit": "^1.1.5",
     "three": "^0.148.0",
     "vant": "2.12.53",
-    "vue": "2.7.14"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.0",
-    "@vitejs/plugin-vue2": "^2.2.0",
-    "eslint": "^8.30.0",
-    "unplugin-vue-components": "^0.22.12",
-    "vite": "^4.0.0"
-  }
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
