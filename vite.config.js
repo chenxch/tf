@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: process.env.NODE_ENV === 'production' ? 'https://chenxch.github.io/tf/' : '/',
+  // base: process.env.NODE_ENV === 'production' ? 'https://chenxch.github.io/tf/' : '/',
 })
